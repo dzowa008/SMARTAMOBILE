@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { FileText, Users, Share2, MoreVertical, Eye, Edit, Shield } from 'lucide-react-native';
+import { FileText, Users, Share2, MoveVertical as MoreVertical, Eye, CreditCard as Edit, Shield } from 'lucide-react-native';
 import { format } from 'date-fns';
 
 interface SharedNoteCardProps {

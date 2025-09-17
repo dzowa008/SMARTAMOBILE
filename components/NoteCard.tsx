@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { FileText, Mic, Camera, MoreVertical } from 'lucide-react-native';
+import { FileText, Mic, Camera, MoveVertical as MoreVertical } from 'lucide-react-native';
 import { format } from 'date-fns';
 
 interface NoteCardProps {
