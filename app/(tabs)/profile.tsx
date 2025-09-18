@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Switch } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { User, Settings, Bell, Shield, Palette, Cloud, Download, Upload, Trash2, LogOut, Moon, Sun, ChartBar as BarChart3, FileText, Clock, Brain } from 'lucide-react-native';
+import { User, Settings, Bell, Shield, Palette, Cloud, Download, Upload, Trash2, LogOut, Moon, Sun, BarChart3, FileText, Clock, Brain } from 'lucide-react-native';
 import { useRouter } from 'expo-router';
-import { ProfileStats } from '@/components/ProfileStats';
-import { SettingsGroup } from '@/components/SettingsGroup';
-import { userService } from '@/services/userService';
-import { storageService } from '@/services/storageService';
+import { ProfileStats } from '../components/ProfileStats';
+import { SettingsGroup } from '../components/SettingsGroup';
+import { userService } from '../services/userService';
+import { storageService } from '../services/storageService';
 
 export default function ProfileScreen() {
   const router = useRouter();

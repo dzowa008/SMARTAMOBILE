@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, FlatList, TouchableOpacity, Alert, TextInput } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Search, Plus, Filter, Grid2x2 as Grid, List, MoveVertical as MoreVertical } from 'lucide-react-native';
+import { Search, Plus, Filter, Grid, List, MoreVertical } from 'lucide-react-native';
 import { useRouter } from 'expo-router';
-import { NoteCard } from '@/components/NoteCard';
-import { FilterModal } from '@/components/FilterModal';
-import { notesService } from '@/services/notesService';
+import { NoteCard } from '../components/NoteCard';
+import { FilterModal } from '../components/FilterModal';
+import { notesService } from '../services/notesService';
 
 export default function NotesScreen() {
   const router = useRouter();
