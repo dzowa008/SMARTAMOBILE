@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TextInput, FlatList, TouchableOpacity, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Search, Brain, Filter, Clock, Hash, Folder } from 'lucide-react-native';
-import { SearchResults } from '../components/SearchResults';
-import { SearchFilters } from '../components/SearchFilters';
-import { SemanticSearch } from '../components/SemanticSearch';
-import { searchService } from '../services/searchService';
+import { SearchResults } from '../../components/SearchResults';
+import { SearchFilters } from '../../components/SearchFilters';
+import { SemanticSearch } from '../../components/SemanticSearch';
+import { searchService } from '../../services/searchService';
 
 export default function SearchScreen() {
   const [query, setQuery] = useState('');

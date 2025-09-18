@@ -3,11 +3,11 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert } from 'rea
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Plus, Mic, Brain, Calendar } from 'lucide-react-native';
 import { useRouter } from 'expo-router';
-import { DashboardStats } from '../components/DashboardStats';
-import { RecentNotes } from '../components/RecentNotes';
-import { QuickActions } from '../components/QuickActions';
-import { AIInsights } from '../components/AIInsights';
-import { notesService } from '../services/notesService';
+import { DashboardStats } from '../../components/DashboardStats';
+import { RecentNotes } from '../../components/RecentNotes';
+import { QuickActions } from '../../components/QuickActions';
+import { AIInsights } from '../../components/AIInsights';
+import { notesService } from '../../services/notesService';
 
 export default function HomeScreen() {
   const router = useRouter();

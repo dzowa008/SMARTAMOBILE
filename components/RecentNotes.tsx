@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, FlatList } from 'react-native';
 import { FileText, Clock, Mic, Camera } from 'lucide-react-native';
+import { format } from 'date-fns';
 
 interface Note {
   id: string;

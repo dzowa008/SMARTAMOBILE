@@ -4,11 +4,11 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Mic, MicOff, Play, Pause, Save, Brain } from 'lucide-react-native';
 import * as Speech from 'expo-speech';
 import { Audio } from 'expo-av';
-import { VoiceRecorder } from '../components/VoiceRecorder';
-import { TranscriptionDisplay } from '../components/TranscriptionDisplay';
-import { AIProcessingModal } from '../components/AIProcessingModal';
-import { voiceService } from '../services/voiceService';
-import { notesService } from '../services/notesService';
+import { VoiceRecorder } from '../../components/VoiceRecorder';
+import { TranscriptionDisplay } from '../../components/TranscriptionDisplay';
+import { AIProcessingModal } from '../../components/AIProcessingModal';
+import { voiceService } from '../../services/voiceService';
+import { notesService } from '../../services/notesService';
 
 export default function VoiceScreen() {
   const [isRecording, setIsRecording] = useState(false);

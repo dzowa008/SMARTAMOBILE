@@ -3,10 +3,10 @@ import { View, Text, StyleSheet, FlatList, TouchableOpacity, Alert, TextInput } 
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Users, Share2, Plus, Search, UserPlus, Globe, Lock } from 'lucide-react-native';
 import { useRouter } from 'expo-router';
-import { SharedNoteCard } from '../components/SharedNoteCard';
-import { CollaborationModal } from '../components/CollaborationModal';
-import { InviteModal } from '../components/InviteModal';
-import { collaborationService } from '../services/collaborationService';
+import { SharedNoteCard } from '../../components/SharedNoteCard';
+import { CollaborationModal } from '../../components/CollaborationModal';
+import { InviteModal } from '../../components/InviteModal';
+import { collaborationService } from '../../services/collaborationService';
 
 export default function CollaborateScreen() {
   const router = useRouter();
